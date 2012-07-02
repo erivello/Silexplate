@@ -3,6 +3,7 @@
 use Silex\Provider\HttpCacheServiceProvider;
 use Silex\Provider\TwigServiceProvider;
 use Silex\Provider\MonologServiceProvider;
+use Silex\Provider\UrlGeneratorServiceProvider;
 
 // Cache dir
 $app['cache.path'] = __DIR__ . '/../cache';
@@ -32,4 +33,7 @@ $app->register(new MonologServiceProvider(), array(
     'monolog.name' => 'app',
     'monolog.level' => 300 // = Logger::WARNING
 ));
+
+// Include UrlGenerator component for generating URLs for named routes
+$app->register(new UrlGeneratorServiceProvider());
 
