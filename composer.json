@@ -3,5 +3,13 @@
         "silex/silex": "1.0.*",
         "twig/twig": ">=1.8,<2.0-dev",
         "monolog/monolog": ">=1.0.0,<1.2-dev"
+    },
+    "scripts": {
+        "post-install-cmd": "Silexplate\\Composer\\EventHandler::postInstall"
+    },
+    "autoload": {
+        "psr-0": {
+            "Silexplate": "src/"
+        }
     }
 }
