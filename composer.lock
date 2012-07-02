@@ -1,5 +1,5 @@
 {
-    "hash": "08ac7d731b92469979b7e5bd847b0196",
+    "hash": "30e090c497b451d99670aa3dc28a2a56",
     "packages": [
         {
             "package": "monolog/monolog",
@@ -62,8 +62,8 @@
         {
             "package": "symfony/http-kernel",
             "version": "dev-master",
-            "source-reference": "a6111c260e33fb03d0068407d6e1a238855d1c86",
-            "commit-date": "1341178091"
+            "source-reference": "9d3743d5fbca0a66b0a6a0f106c3b8c90d2aeee6",
+            "commit-date": "1341225477"
         },
         {
             "package": "symfony/routing",
