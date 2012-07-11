@@ -1,4 +1,8 @@
 {
+    "name": "erivello/silexplate",
+    "description": "A simple boilerplate for Silex PHP micro-framework based on the Symfony2 Components.",
+    "keywords": ["silex", "symfony"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Edoardo Rivello",
