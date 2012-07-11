@@ -1,9 +1,8 @@
 <?php
 
-use Silex\Application;
-
-$app = new Application();
+$app = new Silex\Application();
 
 require __DIR__.'/AppServices.php';
+require __DIR__.'/config/controllers.php';
 
 return $app;
