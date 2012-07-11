@@ -19,5 +19,4 @@ class EventHandler
         chmod('app/cache', 0777);
         chmod('app/logs',  0777);
     }
-    
 }
