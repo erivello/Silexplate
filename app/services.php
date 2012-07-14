@@ -2,6 +2,7 @@
 
 /** Silex Extensions */
 use Silex\Provider\DoctrineServiceProvider;
+use Silex\Provider\FormServiceProvider;
 use Silex\Provider\MonologServiceProvider;
 use Silex\Provider\HttpCacheServiceProvider;
 use Silex\Provider\SessionServiceProvider;
@@ -11,6 +12,9 @@ use Silex\Provider\UrlGeneratorServiceProvider;
 
 // Include Doctrine component to add integration with Doctrine DBAL for easy database acccess
 $app->register(new DoctrineServiceProvider(), $app['doctrine.config']);
+
+// Include Form component for building forms
+$app->register(new FormServiceProvider());
 
 // Include Monolog component to add application debug logging
 $app->register(new MonologServiceProvider(), $app['monolog.config']);
