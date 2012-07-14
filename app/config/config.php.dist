@@ -10,16 +10,19 @@ $app['cache.path'] = __DIR__ . '/../cache';
 $app['logs.path'] = __DIR__ . '/../logs';
 
 
-// HttpCache config
-$app['http_cache.config'] = array(
-    'http_cache.cache_dir' => $app['cache.path'] . '/http'
-);
+// Doctrine config
+$app['doctrine.config'] = array();
 
 // Monolog config
 $app['monolog.config'] = array(
     'monolog.logfile' => $app['logs.path'] . '/app.log',
     'monolog.name'    => 'app',
     'monolog.level'   => 300 // = Logger::WARNING
+);
+
+// HttpCache config
+$app['http_cache.config'] = array(
+    'http_cache.cache_dir' => $app['cache.path'] . '/http'
 );
 
 // Twig config
