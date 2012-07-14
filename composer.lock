@@ -1,5 +1,5 @@
 {
-    "hash": "27a4553ac546c071255c2b316f8d9317",
+    "hash": "7983a3988bafa5e2e2dd51df67d7fb01",
     "packages": [
         {
             "package": "doctrine/common",
@@ -38,6 +38,10 @@
             "version": "dev-master",
             "source-reference": "18e248a277adb061602d2bcabe96011db1c76ec0",
             "commit-date": "1342208524"
+        },
+        {
+            "package": "swiftmailer/swiftmailer",
+            "version": "v4.1.8"
         },
         {
             "package": "symfony/config",
