@@ -5,6 +5,7 @@ use Silex\Provider\DoctrineServiceProvider;
 use Silex\Provider\FormServiceProvider;
 use Silex\Provider\MonologServiceProvider;
 use Silex\Provider\HttpCacheServiceProvider;
+use Silex\Provider\SecurityServiceProvider;
 use Silex\Provider\SessionServiceProvider;
 use Silex\Provider\SwiftmailerServiceProvider;
 use Silex\Provider\TwigServiceProvider;
@@ -24,6 +25,9 @@ $app->register(new MonologServiceProvider(), $app['monolog.config']);
 // Include HttpCache component for store the HTTP cache data
 $app->register(new HttpCacheServiceProvider(), $app['http_cache.config']);
 
+// Include Security component for managing authentication and authorization
+$app->register(new SecurityServiceProvider());
+
 // Include Session component to manage sessions
 $app->register(new SessionServiceProvider());
 
@@ -37,4 +41,4 @@ $app->register(new TwigServiceProvider(), $app['twig.config']);
 $app->register(new UrlGeneratorServiceProvider());
 
 // Include Validator component to validate data
-$app->register(new Silex\Provider\ValidatorServiceProvider());
+$app->register(new ValidatorServiceProvider());
