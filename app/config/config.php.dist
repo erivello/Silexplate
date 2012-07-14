@@ -12,12 +12,12 @@ $app['logs.path'] = __DIR__ . '/../logs';
 
 // HttpCache config
 $app['http_cache.config'] = array(
-    'http_cache.cache_dir' => $app['cache.path'] . DIRECTORY_SEPARATOR . 'http'
+    'http_cache.cache_dir' => $app['cache.path'] . '/http'
 );
 
 // Monolog config
 $app['monolog.config'] = array(
-    'monolog.logfile' => $app['logs.path'] . DIRECTORY_SEPARATOR . 'app.log',
+    'monolog.logfile' => $app['logs.path'] . '/app.log',
     'monolog.name'    => 'app',
     'monolog.level'   => 300 // = Logger::WARNING
 );
@@ -25,7 +25,7 @@ $app['monolog.config'] = array(
 // Twig config
 $app['twig.config'] = array(
     'twig.options' => array(
-        'cache' => $app['cache.path'] . DIRECTORY_SEPARATOR . 'twig'
+        'cache' => $app['cache.path'] . '/twig'
     ),
     'twig.path'    => __DIR__ . '/../Resources/views'
 );
