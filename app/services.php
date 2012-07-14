@@ -9,6 +9,7 @@ use Silex\Provider\SessionServiceProvider;
 use Silex\Provider\SwiftmailerServiceProvider;
 use Silex\Provider\TwigServiceProvider;
 use Silex\Provider\UrlGeneratorServiceProvider;
+use Silex\Provider\ValidatorServiceProvider;
 
 
 // Include Doctrine component to add integration with Doctrine DBAL for easy database acccess
@@ -34,3 +35,6 @@ $app->register(new TwigServiceProvider(), $app['twig.config']);
 
 // Include UrlGenerator component for generating URLs for named routes
 $app->register(new UrlGeneratorServiceProvider());
+
+// Include Validator component to validate data
+$app->register(new Silex\Provider\ValidatorServiceProvider());
