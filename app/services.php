@@ -8,6 +8,7 @@ use Silex\Provider\HttpCacheServiceProvider;
 use Silex\Provider\SecurityServiceProvider;
 use Silex\Provider\SessionServiceProvider;
 use Silex\Provider\SwiftmailerServiceProvider;
+use Silex\Provider\TranslationServiceProvider;
 use Silex\Provider\TwigServiceProvider;
 use Silex\Provider\UrlGeneratorServiceProvider;
 use Silex\Provider\ValidatorServiceProvider;
@@ -33,6 +34,9 @@ $app->register(new SessionServiceProvider());
 
 // Include Swiftmailer component for sending emails
 $app->register(new SwiftmailerServiceProvider());
+
+// Include Translation component for translating into different languages
+$app->register(new TranslationServiceProvider());
 
 // Include Twig component for template rendering
 $app->register(new TwigServiceProvider(), $app['twig.config']);
