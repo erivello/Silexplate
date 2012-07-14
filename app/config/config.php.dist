@@ -16,7 +16,7 @@ $app['doctrine.config'] = array();
 // Monolog config
 $app['monolog.config'] = array(
     'monolog.logfile' => $app['logs.path'] . '/app.log',
-    'monolog.name'    => 'app',
+    'monolog.name'    => 'silexplate',
     'monolog.level'   => 300 // = Logger::WARNING
 );
 
@@ -30,5 +30,7 @@ $app['twig.config'] = array(
     'twig.options' => array(
         'cache' => $app['cache.path'] . '/twig'
     ),
-    'twig.path'    => __DIR__ . '/../Resources/views'
+    'twig.path' => array(
+        __DIR__ . '/../Resources/views'
+    )
 );
