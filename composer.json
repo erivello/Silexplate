@@ -3,6 +3,7 @@
     "description": "A simple boilerplate for Silex PHP micro-framework based on the Symfony2 Components.",
     "keywords": ["silex", "symfony"],
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Edoardo Rivello",
@@ -10,9 +11,17 @@
         }
     ],
     "require": {
+        "doctrine/dbal": "2.2.*",
+        "monolog/monolog": ">=1.0.0,<1.2",
         "silex/silex": "1.0.*",
-        "twig/twig": ">=1.8,<2.0-dev",
-        "monolog/monolog": ">=1.0.0,<1.2-dev"
+        "symfony/config": "2.1.*",
+        "symfony/form": "2.1.*",
+        "symfony/security": "2.1.*",
+        "symfony/translation": "2.1.*",
+        "symfony/twig-bridge": "2.1.*",
+        "symfony/validator": "2.1.*",
+        "swiftmailer/swiftmailer": ">=4.1.2,<4.2",
+        "twig/twig": ">=1.8,<2.0"
     },
     "scripts": {
         "post-install-cmd": "Silexplate\\Composer\\EventHandler::postInstall"
