@@ -148,7 +148,7 @@ if (ini_get('session.auto_start')) {
         <div id="silex-wrapper">
             <div id="silex-content">
                 <div class="silex-blocks-install">
-                
+
                 <div class="silex-block-content">
                     <h1>Welcome!</h1>
                     <p>Welcome to your new Silexplate project.</p>

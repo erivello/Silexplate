@@ -3,7 +3,6 @@
 namespace Silexplate\Provider\Controller;
 
 use Silex\Application;
-use Silex\ControllerCollection;
 use Silex\ControllerProviderInterface;
 
 /**
@@ -15,17 +14,17 @@ class DemoController implements ControllerProviderInterface
 {
     /**
      * @{inheritDoc}
-     */ 
+     */
     public function connect(Application $app)
     {
         $controllers = $app['controllers_factory'];
-        
+
         $controllers->get('/', function () use ($app) {
 
             return 'Welcome to Silexplate';
 
         })->bind('silexplate_homepage');;
-        
+
         return $controllers;
     }
 }

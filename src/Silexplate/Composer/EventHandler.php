@@ -7,12 +7,12 @@ use Composer\Script\Event;
 /**
  * EventHandler
  */
-class EventHandler 
+class EventHandler
 {
     /**
      * Setting up permissions of cache and logs directories
-     * 
-     * @param Event $event 
+     *
+     * @param Event $event
      */
     public static function postInstall(Event $event)
     {

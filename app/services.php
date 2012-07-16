@@ -13,7 +13,6 @@ use Silex\Provider\TwigServiceProvider;
 use Silex\Provider\UrlGeneratorServiceProvider;
 use Silex\Provider\ValidatorServiceProvider;
 
-
 // Include Doctrine component to add integration with Doctrine DBAL for easy database acccess
 $app->register(new DoctrineServiceProvider(), $app['doctrine.config']);
 
