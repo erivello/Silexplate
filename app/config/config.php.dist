@@ -1,0 +1,41 @@
+<?php
+
+// Debug
+$app['debug'] = true;
+
+// Cache dir
+$app['cache.path'] = __DIR__ . '/../cache';
+
+// Logs dir
+$app['logs.path'] = __DIR__ . '/../logs';
+
+
+// Doctrine config
+$app['doctrine.config'] = array();
+
+// Monolog config
+$app['monolog.config'] = array(
+    'monolog.logfile' => $app['logs.path'] . '/app.log',
+    'monolog.name'    => 'silexplate',
+    'monolog.level'   => 300 // = Logger::WARNING
+);
+
+// HttpCache config
+$app['http_cache.config'] = array(
+    'http_cache.cache_dir' => $app['cache.path'] . '/http'
+);
+
+// Security config
+$app['security.config'] = array(
+    'security.firewalls' => array()
+);
+
+// Twig config
+$app['twig.config'] = array(
+    'twig.options' => array(
+        'cache' => $app['cache.path'] . '/twig'
+    ),
+    'twig.path' => array(
+        __DIR__ . '/../Resources/views'
+    )
+);
