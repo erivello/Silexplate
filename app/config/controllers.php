@@ -1,7 +1,3 @@
 <?php
 
-$app->get('/', function () use ($app) {
-
-    return 'Welcome to Silexplate';
-    
-});
+$app->mount('/', new \Silexplate\Provider\Controller\DemoController());
