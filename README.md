@@ -2,6 +2,7 @@ Silexplate
 ==========
 
 A simple boilerplate for [Silex][1] PHP micro-framework based on the [Symfony2][2] Components.
+
 Silex works with PHP 5.3.3 or later.
 
 Installation
