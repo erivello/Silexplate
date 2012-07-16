@@ -26,7 +26,9 @@ $app['http_cache.config'] = array(
 );
 
 // Security config
-$app['security.firewalls'] = array();
+$app['security.config'] = array(
+    'security.firewalls' => array()
+);
 
 // Twig config
 $app['twig.config'] = array(

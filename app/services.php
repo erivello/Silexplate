@@ -27,7 +27,7 @@ $app->register(new MonologServiceProvider(), $app['monolog.config']);
 $app->register(new HttpCacheServiceProvider(), $app['http_cache.config']);
 
 // Include Security component for managing authentication and authorization
-$app->register(new SecurityServiceProvider());
+$app->register(new SecurityServiceProvider(), $app['security.config']);
 
 // Include Session component to manage sessions
 $app->register(new SessionServiceProvider());
