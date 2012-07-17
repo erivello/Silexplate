@@ -12,6 +12,7 @@
     ],
     "require": {
         "doctrine/dbal": "2.2.*",
+        "facebook/php-sdk": "dev-master",
         "monolog/monolog": ">=1.0.0,<1.2",
         "silex/silex": "1.0.*",
         "symfony/config": "2.1.*",

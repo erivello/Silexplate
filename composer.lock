@@ -1,5 +1,5 @@
 {
-    "hash": "d075f2304e31bcc13008f96f5e10bb37",
+    "hash": "d799bf0e21456d197b96d462821615d7",
     "packages": [
         {
             "package": "doctrine/common",
@@ -10,6 +10,12 @@
             "version": "2.2.x-dev",
             "source-reference": "b961a3fce6bf220f1dca47d7d747b9074bea4730",
             "commit-date": "1341779435"
+        },
+        {
+            "package": "facebook/php-sdk",
+            "version": "dev-master",
+            "source-reference": "5e14dc3729ba52bd4ee188ffc202611250b2e8f8",
+            "commit-date": "1342487814"
         },
         {
             "package": "monolog/monolog",
@@ -52,8 +58,7 @@
         {
             "package": "symfony/config",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA3",
-            "commit-date": "1342347231"
+            "source-reference": "v2.1.0-BETA3"
         },
         {
             "package": "symfony/event-dispatcher",
@@ -64,8 +69,7 @@
         {
             "package": "symfony/event-dispatcher",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA3",
-            "commit-date": "1342347231"
+            "source-reference": "v2.1.0-BETA3"
         },
         {
             "package": "symfony/form",
@@ -76,8 +80,7 @@
         {
             "package": "symfony/form",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA3",
-            "commit-date": "1342359251"
+            "source-reference": "v2.1.0-BETA3"
         },
         {
             "package": "symfony/http-foundation",
@@ -112,8 +115,7 @@
         {
             "package": "symfony/locale",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA3",
-            "commit-date": "1342347231"
+            "source-reference": "v2.1.0-BETA3"
         },
         {
             "package": "symfony/options-resolver",
@@ -124,8 +126,7 @@
         {
             "package": "symfony/options-resolver",
             "version": "dev-master",
-            "source-reference": "c31eeb50b88804b465dd3b9854965924de156509",
-            "commit-date": "1342347231"
+            "source-reference": "c31eeb50b88804b465dd3b9854965924de156509"
         },
         {
             "package": "symfony/routing",
@@ -136,8 +137,7 @@
         {
             "package": "symfony/routing",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA3",
-            "commit-date": "1342347231"
+            "source-reference": "v2.1.0-BETA3"
         },
         {
             "package": "symfony/security",
@@ -172,8 +172,7 @@
         {
             "package": "symfony/twig-bridge",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA3",
-            "commit-date": "1342347231"
+            "source-reference": "v2.1.0-BETA3"
         },
         {
             "package": "symfony/validator",
@@ -184,8 +183,7 @@
         {
             "package": "symfony/validator",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA3",
-            "commit-date": "1342347231"
+            "source-reference": "v2.1.0-BETA3"
         },
         {
             "package": "twig/twig",
@@ -196,8 +194,7 @@
         {
             "package": "twig/twig",
             "version": "dev-master",
-            "source-reference": "d45664045194ef62573c153c424508527105041e",
-            "commit-date": "1342424564"
+            "source-reference": "d45664045194ef62573c153c424508527105041e"
         }
     ],
     "packages-dev": null,
@@ -205,7 +202,7 @@
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": [
-
-    ]
+    "stability-flags": {
+        "facebook/php-sdk": 20
+    }
 }
