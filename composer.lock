@@ -1,5 +1,5 @@
 {
-    "hash": "d799bf0e21456d197b96d462821615d7",
+    "hash": "e17912af6fa3733ad927fb54826eca54",
     "packages": [
         {
             "package": "doctrine/common",
@@ -12,10 +12,16 @@
             "commit-date": "1341779435"
         },
         {
+            "package": "erivello/facebook-service-provider",
+            "version": "dev-master",
+            "source-reference": "bb6028e9aa1943a9b5b99645aa904abaeec178e7",
+            "commit-date": "1344867696"
+        },
+        {
             "package": "facebook/php-sdk",
             "version": "dev-master",
-            "source-reference": "5e14dc3729ba52bd4ee188ffc202611250b2e8f8",
-            "commit-date": "1342487814"
+            "source-reference": "1270f0debaab3b93d683a9817c7adbc7e9e5cdc0",
+            "commit-date": "1344374333"
         },
         {
             "package": "monolog/monolog",
@@ -30,8 +36,8 @@
         {
             "package": "pimple/pimple",
             "version": "dev-master",
-            "source-reference": "d2cfa2f02f50abef65c238747c753a5f6786f6be",
-            "commit-date": "1341139100"
+            "source-reference": "db836b8cfadc0f39dacafa2bf311a1ab603600bb",
+            "commit-date": "1343051648"
         },
         {
             "package": "silex/silex",
@@ -42,8 +48,8 @@
         {
             "package": "silex/silex",
             "version": "dev-master",
-            "source-reference": "b9277c0e378ff1bce2a3e974cb801b6d9b0b5d5f",
-            "commit-date": "1342380872"
+            "source-reference": "6d7cf048c704c0c58276b01eccfacab4dd11d013",
+            "commit-date": "1344453846"
         },
         {
             "package": "swiftmailer/swiftmailer",
@@ -58,7 +64,8 @@
         {
             "package": "symfony/config",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA3"
+            "source-reference": "f68ad44f3ee1603ce96387bacba0ecba488c2a33",
+            "commit-date": "1344599303"
         },
         {
             "package": "symfony/event-dispatcher",
@@ -69,7 +76,8 @@
         {
             "package": "symfony/event-dispatcher",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA3"
+            "source-reference": "v2.1.0-BETA4",
+            "commit-date": "1342739894"
         },
         {
             "package": "symfony/form",
@@ -80,7 +88,8 @@
         {
             "package": "symfony/form",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA3"
+            "source-reference": "5c51d2ff0014b6b0f17fe6bdce5834064353cfad",
+            "commit-date": "1344595022"
         },
         {
             "package": "symfony/http-foundation",
@@ -91,8 +100,8 @@
         {
             "package": "symfony/http-foundation",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA3",
-            "commit-date": "1342347231"
+            "source-reference": "9a509ac3bb52076f5a765a85e9552042b40ce287",
+            "commit-date": "1344594770"
         },
         {
             "package": "symfony/http-kernel",
@@ -103,8 +112,8 @@
         {
             "package": "symfony/http-kernel",
             "version": "dev-master",
-            "source-reference": "6df39b97d0815fa493c84ed448eb6cc961652303",
-            "commit-date": "1342376835"
+            "source-reference": "0d0ee371ab0425f3399dba9e25d7ad98ca5c0d62",
+            "commit-date": "1344074675"
         },
         {
             "package": "symfony/locale",
@@ -115,7 +124,8 @@
         {
             "package": "symfony/locale",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA3"
+            "source-reference": "58ff3213b4e187f410d6795a1da11dfde8a0e118",
+            "commit-date": "1344352623"
         },
         {
             "package": "symfony/options-resolver",
@@ -126,7 +136,8 @@
         {
             "package": "symfony/options-resolver",
             "version": "dev-master",
-            "source-reference": "c31eeb50b88804b465dd3b9854965924de156509"
+            "source-reference": "6a1159eb868b3af059d0a8c578db1f7efab89850",
+            "commit-date": "1344014278"
         },
         {
             "package": "symfony/routing",
@@ -137,7 +148,8 @@
         {
             "package": "symfony/routing",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA3"
+            "source-reference": "v2.1.0-RC1",
+            "commit-date": "1343744077"
         },
         {
             "package": "symfony/security",
@@ -148,8 +160,8 @@
         {
             "package": "symfony/security",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA3",
-            "commit-date": "1342357113"
+            "source-reference": "3d7bc6981737b48b504afbc9813c1a491cdfa4c1",
+            "commit-date": "1344599303"
         },
         {
             "package": "symfony/translation",
@@ -160,8 +172,8 @@
         {
             "package": "symfony/translation",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA3",
-            "commit-date": "1342347231"
+            "source-reference": "v2.1.0-RC1",
+            "commit-date": "1343512949"
         },
         {
             "package": "symfony/twig-bridge",
@@ -172,7 +184,8 @@
         {
             "package": "symfony/twig-bridge",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA3"
+            "source-reference": "v2.1.0-RC1",
+            "commit-date": "1343236543"
         },
         {
             "package": "symfony/validator",
@@ -183,7 +196,8 @@
         {
             "package": "symfony/validator",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA3"
+            "source-reference": "2794f1d7bfea5c017c50f870ca1bf2dd1c363f03",
+            "commit-date": "1344856683"
         },
         {
             "package": "twig/twig",
@@ -194,7 +208,8 @@
         {
             "package": "twig/twig",
             "version": "dev-master",
-            "source-reference": "d45664045194ef62573c153c424508527105041e"
+            "source-reference": "f2f698c820d4396f519ef4175ad6fe79fcfb9ecf",
+            "commit-date": "1344328685"
         }
     ],
     "packages-dev": null,
@@ -203,6 +218,6 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "facebook/php-sdk": 20
+        "erivello/facebook-service-provider": 20
     }
 }
