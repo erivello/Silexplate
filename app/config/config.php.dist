@@ -30,6 +30,11 @@ $app['security.config'] = array(
     'security.firewalls' => array()
 );
 
+// Facebook config
+$app['facebook.config'] = array(
+    'facebook.apps' => array()
+);
+
 // Twig config
 $app['twig.config'] = array(
     'twig.options' => array(
