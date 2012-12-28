@@ -1,9 +1,9 @@
 {
     "name": "erivello/silexplate",
     "description": "A simple boilerplate for Silex PHP micro-framework based on the Symfony2 Components.",
-    "keywords": ["silex", "symfony"],
+    "keywords": ["silex", "symfony", "facebook"],
+    "homepage": "https://github.com/erivello/Silexplate",
     "license": "MIT",
-    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Edoardo Rivello",
@@ -11,18 +11,19 @@
         }
     ],
     "require": {
-        "doctrine/dbal": "2.2.*",
-        "monolog/monolog": ">=1.0.0,<1.2",
-        "silex/silex": "1.0.*",
-        "symfony/config": "2.1.*",
-        "symfony/form": "2.1.*",
-        "symfony/security": "2.1.*",
-        "symfony/translation": "2.1.*",
+        "silex/silex": "1.0.*@dev",
+        "twig/twig": ">=1.8,<2.0-dev",
         "symfony/twig-bridge": "2.1.*",
+        "symfony/security": "2.1.*",
+        "symfony/form": "2.1.*",
         "symfony/validator": "2.1.*",
-        "swiftmailer/swiftmailer": ">=4.1.2,<4.2",
-        "twig/twig": ">=1.8,<2.0"
+        "symfony/config": "2.1.*",
+        "symfony/translation": "2.1.*",
+        "doctrine/dbal": "2.2.*",
+        "monolog/monolog": ">=1.0.0",        
+        "erivello/facebook-service-provider": "dev-master"
     },
+    "minimum-stability": "dev",    
     "scripts": {
         "post-install-cmd": "Silexplate\\Composer\\EventHandler::postInstall"
     },

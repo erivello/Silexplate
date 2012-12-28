@@ -41,6 +41,7 @@ What's inside?
 The Silexplate comes pre-configured with the following providers:
 
 * **DoctrineServiceProvider** - Adds support for Doctrine DBAL
+* **FacebookServiceProvider** - Adds support for Facebook PHP SDK
 * **FormServiceProvider** - Adds functionality for building forms
 * **MonologServiceProvider** - Add application debug logging
 * **HttpCacheServiceProvider** - Adds support for storing HTTP cache data

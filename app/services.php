@@ -2,6 +2,7 @@
 
 /** Silex Extensions */
 use Silex\Provider\DoctrineServiceProvider;
+use Erivello\Silex\Provider\FacebookServiceProvider;
 use Silex\Provider\FormServiceProvider;
 use Silex\Provider\MonologServiceProvider;
 use Silex\Provider\HttpCacheServiceProvider;
@@ -13,9 +14,11 @@ use Silex\Provider\TwigServiceProvider;
 use Silex\Provider\UrlGeneratorServiceProvider;
 use Silex\Provider\ValidatorServiceProvider;
 
-
 // Include Doctrine component to add integration with Doctrine DBAL for easy database acccess
 $app->register(new DoctrineServiceProvider(), $app['doctrine.config']);
+
+// Include Facebook service
+$app->register(new FacebookServiceProvider(), $app['facebook.config']);
 
 // Include Form component for building forms
 $app->register(new FormServiceProvider());
