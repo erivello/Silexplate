@@ -1,8 +1,5 @@
 <?php
 
-// Debug
-$app['debug'] = true;
-
 // Cache dir
 $app['cache.path'] = __DIR__ . '/../cache';
 
